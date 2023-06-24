@@ -1,0 +1,52 @@
+body {
+  margin: 0;
+  height: 100vh;
+  background-color: #eee;
+}
+
+.flex {
+  display: flex;
+}
+.column {
+  flex-direction: column;
+}
+.flex1 {
+  flex: 1;
+}
+.baise {
+  background-color: white;
+}
+.mgt8 {
+  margin-top: 6px;
+}
+.mgr8 {
+  margin-right: 6px;
+}
+.yinying {
+  box-shadow: rgb(0 0 0 / 20%) 0px 2px 1px -1px, rgb(0 0 0 / 14%) 0px 1px 1px,
+    rgb(0 0 0 / 12%) 0px 1px 3px 0px;
+}
+.ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+li {
+  float: left;
+  display: block;
+  width: 200px;
+  text-align: center;
+  text-decoration: none;
+}
+.a {
+  display: block;
+  width: 200px;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  color: #005acfd3;
+}
+a:hover {
+  color: #000;
+}
